@@ -16,10 +16,10 @@ import { Button } from "@/components/ui/button";
 
 const formSchema = z.object({
   email: z.string().optional(),
-  name: z.string().min(1, "name is required"),
+  name: z.string().min(1, "Name is required"),
   addressLine1: z.string().min(1, "Address LIne 1 is required"),
   city: z.string().min(1, "City is required"),
-  country: z.string().min(1, "COuntry is required"),
+  country: z.string().min(1, "Country is required"),
 });
 
 type UserFormData = z.infer<typeof formSchema>;
@@ -70,6 +70,7 @@ const UserProfileForm = ({ onSave, isLoading }: Props) => {
               <FormControl>
                 <Input {...field} className="bg-white" />
               </FormControl>
+              <FormMessage />
             </FormItem>
           )}
         />
@@ -96,7 +97,7 @@ const UserProfileForm = ({ onSave, isLoading }: Props) => {
               <FormItem className="flex-1">
                 <FormLabel>City</FormLabel>
                 <FormControl>
-                  <Input {...field} disabled className="bg-white" />
+                  <Input {...field} className="bg-white" />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -110,7 +111,7 @@ const UserProfileForm = ({ onSave, isLoading }: Props) => {
               <FormItem className="flex-1">
                 <FormLabel>Country</FormLabel>
                 <FormControl>
-                  <Input {...field} disabled className="bg-white" />
+                  <Input {...field} className="bg-white" />
                 </FormControl>
                 <FormMessage />
               </FormItem>

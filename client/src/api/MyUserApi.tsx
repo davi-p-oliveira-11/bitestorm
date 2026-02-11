@@ -1,5 +1,6 @@
 import { useAuth0, User } from "@auth0/auth0-react";
 import { useMutation } from "@tanstack/react-query";
+import { toast } from "sonner";
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
