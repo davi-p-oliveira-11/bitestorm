@@ -1,4 +1,5 @@
-import { useAuth0, User } from "@auth0/auth0-react";
+import type { User } from "@/types";
+import { useAuth0 } from "@auth0/auth0-react";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { useEffect } from "react";
 import { toast } from "sonner";
