@@ -5,8 +5,8 @@ The project focuses on scalable backend architecture, authentication flows, and 
 
 Designed as a production-oriented MVP, it demonstrates end-to-end functionality from user authentication to restaurant administration and order processing.
 
-🔗 **Live Application:** https://your-live-link.com  
-📦 **Repository:** https://github.com/your-username/bitestorm  
+🔗 **Live Application:** https://bitestorm.onrender.com/ 
+📦 **Repository:** https://github.com/davi-p-oliveira-11/bitestorm 
 
 ---
 
