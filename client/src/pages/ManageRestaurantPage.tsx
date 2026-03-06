@@ -1,3 +1,13 @@
+import React from 'react'
+
+const ManageRestaurantPage = () => {
+  return (
+    <div>ManageRestaurantPage</div>
+  )
+}
+
+export default ManageRestaurantPage
+{/* }
 import {
   useCreateMyRestaurant,
   useGetMyRestaurant,
@@ -46,3 +56,4 @@ const ManageRestaurantPage = () => {
 };
 
 export default ManageRestaurantPage;
+*/}
